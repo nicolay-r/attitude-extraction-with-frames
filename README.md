@@ -19,18 +19,24 @@ List of the toolset dependencies are as follows:
 
 ## Installation 
 
-Includes two steps:
+Includes three steps:
 
-1. Clone this repository:
+* Clone this repository:
 ```
 git clone https://github.com/nicolay-r/attitude-extraction-with-frames
 ```
 
-2. install [AREkit](https://github.com/nicolay-r/AREkit) 
+* install [AREkit](https://github.com/nicolay-r/AREkit) 
 as a dependency in `core` directory:
 ```
 cd attitude-extraction-with-frames
 git clone https://github.com/nicolay-r/AREkit/tree/lrec-2020 core
+```
+
+* install data dependencies:
+```
+cd data
+./install.sh
 ```
 
 ## How to Reproduce Experiments
