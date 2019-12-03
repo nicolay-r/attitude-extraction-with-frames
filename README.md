@@ -1,34 +1,45 @@
 # attitude-extraction-with-frames
 ![](https://img.shields.io/badge/Python-2.7-brightgreen.svg)
-![](https://img.shields.io/badge/TensorFlow-1.4.1-yellowgreen.svg)
+
+> Description to be updated.
 
 # Contents
-* [Introduction](#introduction)
+* [Dependencies](#dependencies)
 * [Installation](#installation)
-* [Reproduce experiments](#how-to-run-experiments)
+* [Experiments Reproduction](#how-to-run-experiments)
 
-## Introduction 
+## Dependencies
+
+List of the toolset dependencies are as follows:
+
+* Python 2.7
+
+* [AREkit](https://github.com/nicolay-r/AREkit) -- a toolset for sentiment attitudes extraction task 
+(checkout [Installation](#installation) section for details); 
 
 ## Installation 
 
 Includes two steps:
 
+1. Clone this repository:
 ```
-# 1. Clone this repotory
 git clone https://github.com/nicolay-r/attitude-extraction-with-frames
-# 2. install AREkit as a dependency in 'core' directory
-cd attitude-extraction-with-frames && git clone <AREkit> core
 ```
 
-## How to run experiments
+2. install [AREkit](https://github.com/nicolay-r/AREkit) 
+as a dependency in `core` directory:
+```
+cd attitude-extraction-with-frames
+git clone https://github.com/nicolay-r/AREkit/tree/lrec-2020 core
+```
 
-1. Select the experiment type:
+## How to Reproduce Experiments
+
+* Select the experiment type:
     * `classic` -- is an application of 
         [RuSentRel](https://github.com/nicolay-r/RuSentRel) 
         only for training.
-    * `rusentrel_ds` -- is an application of  
-        [RuSentRel](https://github.com/nicolay-r/RuSentRel) and
-        [RuAttitudes](https://github.com/nicolay-r/RuAttitudes) 
+    * `rusentrel_ds` -- is an application of [RuSentRel](https://github.com/nicolay-r/RuSentRel) and [RuAttitudes](https://github.com/nicolay-r/RuAttitudes) 
         datasets for training.
 ```
 # experiment type #1
@@ -37,7 +48,7 @@ cd rusentrel/classic/ctx
 cd rusentrel/rusentrel_ds/ctx
 ```
 
-2. Run one of the following experiment:
+* Run one of the following experiment:
 ```
 python bilstm.py
 python cnn.py
