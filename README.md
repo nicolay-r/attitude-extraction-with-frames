@@ -30,7 +30,7 @@ git clone https://github.com/nicolay-r/attitude-extraction-with-frames
 as a dependency in `core` directory:
 ```
 cd attitude-extraction-with-frames
-git clone https://github.com/nicolay-r/AREkit/tree/0.19.3-lrec-rejected-rc core
+git clone -b 0.19.3-lrec-rejected-rc https://github.com/nicolay-r/AREkit core
 ```
 
 * install data dependencies:
