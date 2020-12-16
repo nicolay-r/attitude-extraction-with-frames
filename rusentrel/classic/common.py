@@ -1,5 +1,4 @@
 from core.networks.context.configurations.base import DefaultNetworkConfig
-from core.networks.multi.configuration.base import BaseMultiInstanceConfig
 
 
 def classic_ctx_common_config_settings(config):

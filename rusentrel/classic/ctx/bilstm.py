@@ -5,7 +5,7 @@ import sys
 
 sys.path.append('../../../')
 
-from core.networks.context.configurations.bi_lstm import BiLSTMConfig
+from core.networks.context.configurations.bilstm import BiLSTMConfig
 from core.networks.context.architectures.bilstm import BiLSTM
 from core.networks.tf_helpers.sequence import CellTypes
 from core.evaluation.evaluators.two_class import TwoClassEvaluator

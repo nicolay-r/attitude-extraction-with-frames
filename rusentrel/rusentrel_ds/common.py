@@ -1,8 +1,6 @@
 from core.networks.context.configurations.base import DefaultNetworkConfig
-from core.networks.multi.configuration.base import BaseMultiInstanceConfig
 from rusentrel.callback import CustomCallback
 from rusentrel.classic.common import classic_ctx_common_config_settings
-from rusentrel.default import MI_CONTEXTS_PER_OPINION
 
 DS_NAME_PREFIX = u'ds_'
 
