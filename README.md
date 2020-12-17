@@ -1,7 +1,12 @@
 # attitude-extraction-with-frames
 ![](https://img.shields.io/badge/Python-2.7-brightgreen.svg)
 
+> **UPD 17'th Decembed, 2020**: Fixed bug in results [evaluation code](https://github.com/nicolay-r/attitude-extraction-with-frames/issues/1)
+the latter may cause effect with 1.0 prec/recall values for such documents that lacks of neutral attitudes in output labeling.
+
 > Description to be updated.
+
+
 
 # Contents
 * [Dependencies](#dependencies)
